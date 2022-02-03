@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#1E374B"
+        tools:context=".OptActivity">
+
+<androidx.appcompat.widget.Toolbar
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:id="@+id/toolbar"
+    android:background="#1E374B">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Settings"
+        android:textColor="@color/white"
+        android:layout_margin="10dp"
+        android:textSize="18sp"/>
+
+
+</androidx.appcompat.widget.Toolbar>
+
+
+    <TextView
+        android:id="@+id/logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#00B0FF"
+        android:padding="5dp"
+        android:text="Sign out"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:ignore="TextContrastCheck" />
+
+    <TextView
+        android:id="@+id/edit_meu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="#00B0FF"
+        android:padding="5dp"
+        android:text="Edit your profile"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        tools:ignore="TextContrastCheck" />
+
+    </LinearLayout>

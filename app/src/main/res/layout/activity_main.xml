@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="start|center_vertical"
+    android:background="#1E374B"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:id="@+id/icon_image"
+        android:layout_width="380dp"
+        android:layout_height="340dp"
+        android:background="#1E374B"
+        android:contentDescription="@string/app_name"
+        android:paddingStart="0dp"
+        android:paddingEnd="0dp"
+        app:srcCompat="@drawable/logo"
+        tools:ignore="MissingConstraints"
+
+        tools:layout_editor_absoluteX="210dp"
+        tools:layout_editor_absoluteY="38dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="10dp"
+        android:text="Account login"
+        android:textColor="@color/white"
+        app:layout_constrainedHeight="true"
+        app:layout_constrainedWidth="false"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+    <EditText
+        android:id="@+id/emailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/white"
+        android:hint="Email"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="495dp" />
+
+    <EditText
+        android:id="@+id/passwordLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="@color/white"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="17dp"
+        tools:layout_editor_absoluteY="571dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="#00B0FF"
+        android:insetTop="2dp"
+        android:insetBottom="2dp"
+        android:padding="5dp"
+        android:text="Log In"
+        android:textColor="@color/colorWhite"
+        tools:ignore="MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="642dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="#00B0FF"
+        android:insetTop="2dp"
+        android:insetBottom="2dp"
+        android:padding="5dp"
+        android:text="Register"
+        android:textColor="@color/colorWhite"
+        tools:ignore="MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="37dp"
+        tools:layout_editor_absoluteY="709dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:background="#1E374B"
+        android:visibility="gone"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="10dp"
+        tools:layout_editor_absoluteY="433dp" />
+
+
+</LinearLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "235159605672",
+    "firebase_url": "https://caraplication-31018-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "caraplication-31018",
+    "storage_bucket": "caraplication-31018.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:235159605672:android:3c9c16ebdfbdb6589c0d9d",
+        "android_client_info": {
+          "package_name": "com.example.caraplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "235159605672-jq8p2e2shrscfgtsfabk54d6nelujjs6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR2FkbgsGiVUMYW2akoPB8JNns-G2JEu8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "235159605672-jq8p2e2shrscfgtsfabk54d6nelujjs6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

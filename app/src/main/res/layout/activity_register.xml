@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E374B"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/pentruregister"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        tools:ignore="MissingConstraints"
+        android:src="@drawable/ic_person1_foreground"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="1527dp"
+        />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="Name"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1608dp" />
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="Username"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-3dp"
+        tools:layout_editor_absoluteY="1666dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="Email"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="1720dp" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/white"
+        android:hint="Password"
+        android:minHeight="48dp"
+        android:padding="10dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="12dp"
+        tools:layout_editor_absoluteY="1775dp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#00B0FF"
+        android:insetTop="2dp"
+        android:insetBottom="2dp"
+        android:padding="5dp"
+        android:text="REGISTER"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints,TextContrastCheck"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="2000dp" />
+
+
+
+    <TextView
+        android:id="@+id/login_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Already a user? LogIn"
+        android:textColor="@color/white"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="467dp"
+        tools:layout_editor_absoluteY="2020dp" />
+
+
+</LinearLayout>
