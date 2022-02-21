@@ -5,7 +5,7 @@
 * Make a post
 * Add details to the post
 * Search for other users
-* Edit profile: Edit your profile picture, name, and phone number
+* Edit profile: edit your profile picture, name, and phone number
 * Delete post
 # Technology used
 * Java
